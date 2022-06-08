@@ -20,7 +20,6 @@ public class BaseClass {
 		else if (browser.equals("firefox"))
 		{
 			WebDriverManager.firefoxdriver().setup();
-			//System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\Browsers\\geckodriver.exe");
 			driver = new FirefoxDriver ();
 		}
 		
