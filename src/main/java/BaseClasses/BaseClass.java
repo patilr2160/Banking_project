@@ -14,6 +14,7 @@ public class BaseClass {
 		if(browser.equals("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
+			
 			driver = new ChromeDriver ();
 		}
 		else if (browser.equals("firefox"))
